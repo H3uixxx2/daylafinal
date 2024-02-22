@@ -1,3 +1,4 @@
+/*
 package com.mongodb.tasktracker
 
 import android.app.AlertDialog
@@ -19,11 +20,13 @@ import io.realm.mongodb.sync.SyncConfiguration
 import com.mongodb.tasktracker.model.TaskAdapter
 import com.mongodb.tasktracker.model.Task
 
+*/
 /*
 * TaskActivity: allows a user to view a collection of Tasks, edit the status of those tasks,
 * create new tasks, and delete existing tasks from the collection. All tasks are stored in a realm
 * and synced across devices using the partition "project=<user id>".
-*/
+*//*
+
 class TaskActivity : AppCompatActivity() {
     private lateinit var projectRealm: Realm
     private var user: User? = null
@@ -120,3 +123,4 @@ class TaskActivity : AppCompatActivity() {
         recyclerView.addItemDecoration(DividerItemDecoration(this, DividerItemDecoration.VERTICAL))
     }
 }
+*/

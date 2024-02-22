@@ -1,3 +1,4 @@
+/*
 package com.mongodb.tasktracker
 
 import android.content.Intent
@@ -17,12 +18,14 @@ import io.realm.kotlin.where
 import io.realm.mongodb.sync.SyncConfiguration
 import org.bson.types.ObjectId
 
+*/
 /*
 * ProjectActivity: allows a user to view a collection of Projects. Clicking on a project launches a
 * view of tasks in that project. Clicking on the options button for a project launches a view
 * that allows the user to add or remove members from the project. All projects are stored in a
 * read-only realm on the logged in user's User object.
-*/
+*//*
+
 class ProjectActivity : AppCompatActivity() {
     private var user: io.realm.mongodb.User? = null
     private var userRealm: Realm? = null
@@ -152,3 +155,4 @@ class ProjectActivity : AppCompatActivity() {
         )
     }
 }
+*/

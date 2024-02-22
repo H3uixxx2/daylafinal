@@ -1,3 +1,4 @@
+/*
 package com.mongodb.tasktracker.model
 
 import android.content.Intent
@@ -11,10 +12,10 @@ import io.realm.RealmList
 import io.realm.RealmRecyclerViewAdapter
 import io.realm.mongodb.User
 
-/*
 * ProjectAdapter: extends the Realm-provided RealmRecyclerViewAdapter to provide data for a RecyclerView to display
 * Realm objects on screen to a user.
-*/
+
+
 internal class ProjectAdapter(data: RealmList<Project>, var user: User) : RealmRecyclerViewAdapter<Project, ProjectAdapter.ProjectViewHolder?>(data, true) {
     lateinit var parent : ViewGroup
 
@@ -70,3 +71,4 @@ internal class ProjectAdapter(data: RealmList<Project>, var user: User) : RealmR
 
     }
 }
+*/

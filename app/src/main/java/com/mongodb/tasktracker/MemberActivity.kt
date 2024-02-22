@@ -1,3 +1,4 @@
+/*
 package com.mongodb.tasktracker
 
 import android.app.AlertDialog
@@ -16,9 +17,11 @@ import io.realm.mongodb.functions.Functions
 import org.bson.Document
 import java.util.*
 
+*/
 /*
 * MemberActivity: allows a user to view, add, and remove the members of their project.
-*/
+*//*
+
 class MemberActivity : AppCompatActivity() {
     private var user: io.realm.mongodb.User? = null
     private lateinit var recyclerView: RecyclerView
@@ -105,3 +108,4 @@ class MemberActivity : AppCompatActivity() {
         }
     }
 }
+*/
